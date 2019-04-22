@@ -1,13 +1,15 @@
 :root  {
   --blue: #4557BB;
-  --mainColor: #222;
+  --mainColor: #272727;
   --secondaryColor: #fff;
 }
 html {
   box-sizing: border-box;
   font-family: "Lato", Tahoma, Sans-Serif;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
-  color: #272727;}
+  color: var(--mainColor);
+  font-size: 1.15rem;
+}
 
 *,
 *:before,
@@ -28,4 +30,13 @@ h6 {
   font-weight: normal;
   margin: 0;
   font-size: 1.5em;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+  line-height: 1.45;
+}
+p:last-child {
+  margin-bottom: 0;
 }
