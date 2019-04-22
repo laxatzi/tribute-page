@@ -47,3 +47,12 @@ p:last-child {
   flex-direction: column;
   justify-content: space-around;
 }
+
+/* .page__demo {
+                Don't know why it exists
+} */
+.main-container {
+  margin: 0 auto;
+  padding: 30px 2rem;
+  max-width: 960px;
+}
