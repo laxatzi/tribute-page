@@ -1,5 +1,7 @@
 :root  {
   --blue: #4557BB;
+  --mainColor: #222;
+  --secondaryColor: #fff;
 }
 html {
   box-sizing: border-box;
