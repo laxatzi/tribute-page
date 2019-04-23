@@ -47,6 +47,9 @@ p:last-child {
   flex-direction: column;
   justify-content: space-around;
 }
+.page > * {
+  border: 1px solid red;
+}
 
  .page__demo {
     flex-grow: 1;
