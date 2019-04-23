@@ -59,3 +59,12 @@ p:last-child {
   padding: 30px 2rem;
   max-width: 960px;
 }
+.timeline__group {
+  border: 1px solid red;
+}
+.timeline__year {
+  border: 1px solid green;  
+}
+.timeline__box {
+  border: 1px solid blue;
+}
