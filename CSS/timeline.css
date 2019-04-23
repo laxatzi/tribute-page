@@ -59,8 +59,14 @@ p:last-child {
   padding: 30px 2rem;
   max-width: 960px;
 }
+.timeline {
+  font-size: 1rem;
+}
 .timeline__group {
   border: 1px solid red;
+}
+.timeline__group:not(:first-of-type) {
+  margin-top: 4rem;
 }
 .timeline__year {
   border: 1px solid green;  
