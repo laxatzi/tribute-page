@@ -61,6 +61,17 @@ p:last-child {
 }
 .timeline {
   font-size: 1rem;
+  position: relative;
+  padding: 3rem 0;
+  
+}
+.timeline:before {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color:var(--blue);
+  position: absolute;
+  top: 0;
 }
 .timeline__group {
   border: 1px solid red;
@@ -84,4 +95,14 @@ p:last-child {
 }
 .timeline__box:not(:last-of-type) {
   margin-bottom: 30px;
+}
+
+.timeline__box:before {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: var(--blue);
+  position: absolute;
+  left: 0;
+  z-index: -1;
 }
