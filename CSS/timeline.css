@@ -80,5 +80,8 @@ p:last-child {
 }
 .timeline__box {
   border: 1px solid blue;
+  position: relative;
 }
-
+.timeline__box:not(:last-of-type) {
+  margin-bottom: 30px;
+}
