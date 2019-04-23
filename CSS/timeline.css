@@ -71,7 +71,14 @@ p:last-child {
 }
 .timeline__year {
   border: 1px solid green;  
+  padding: .5rem 1.5rem;
+  color: var(--secondaryColor);
+  background-color: var(--blue);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .timeline__box {
   border: 1px solid blue;
 }
+
