@@ -64,6 +64,7 @@ p:last-child {
 }
 .timeline__group {
   border: 1px solid red;
+  position: relative;
 }
 .timeline__group:not(:first-of-type) {
   margin-top: 4rem;
