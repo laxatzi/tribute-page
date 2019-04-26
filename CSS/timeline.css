@@ -32,13 +32,16 @@ p:last-child{
 
 .page__demo{
   flex-grow: 1;
-}
-
-.main-container{
   max-width: 800px;
   padding:30px 2rem;
   margin: 0 auto; 
 }
+
+/* .main-container{
+  max-width: 800px;
+  padding:30px 2rem;
+  margin: 0 auto; 
+} */
 
 .timeline{
   --uiTimelineMainColor: var(--timelineMainColor, #222);
@@ -55,7 +58,6 @@ p:last-child{
   width: 4px;
   height: 89%;
   background-color: var(--uiTimelineMainColor);
-
   position: absolute;
   top: 5;
 }
@@ -72,7 +74,6 @@ p:last-child{
   padding: .5rem 1.5rem;
   color: var(--uiTimelineSecondaryColor);
   background-color: var(--uiTimelineMainColor);
-
   position: absolute;
   left: 0;
   top: 0;
@@ -91,7 +92,6 @@ p:last-child{
   width: 100%;
   height: 2px;
   background-color: var(--uiTimelineMainColor);
-
   position: absolute;
   left: 0;
   z-index: -1;
