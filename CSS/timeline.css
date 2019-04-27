@@ -46,7 +46,7 @@ p:last-child{
 .timeline{
   --uiTimelineMainColor: var(--timelineMainColor, #222);
   --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
-  --timelineMainColor: #4557bb;
+  --timelineMainColor: #FF70BE;
   font-size: 16px;
   position: relative;
   padding-top: 3rem;
