@@ -209,7 +209,14 @@ p:last-child{
     top: 50%;
     transform: translateY(-50%);  
   }  
-
+  .timeline__group-alt .timeline__box:before{
+    top: 50%;
+    transform: translateY(-50%);  
+  }
+  .timeline__group-alt .timeline__date {
+    top: 50%;
+    margin-top: -27px;
+  }
   .timeline__date{
     top: 50%;
     margin-top: -27px;
@@ -221,6 +228,9 @@ p:last-child{
       font-size: 55%;
     }
     .timeline__post {
+      font-size: .8em;
+    }
+    .timeline__group-alt .timeline__post {
       font-size: .8em;
     }
 }
