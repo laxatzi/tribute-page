@@ -69,10 +69,13 @@ p:last-child{
 .timeline__group-alt {
   position: relative;
 }
+
 .timeline__group:not(:first-of-type){ 
   margin-top: 4rem;
 }
-
+.timeline__group-alt:not(:first-of-type) {
+  margin-top: 4rem;
+}
 .timeline__year{
   padding: .5rem 1.5rem;
   color: var(--uiTimelineSecondaryColor);
@@ -89,6 +92,7 @@ p:last-child{
   left: 0;
   top: 0;
 }
+/* timeline-box */
 .timeline__box{
   position: relative;
 }
