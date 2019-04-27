@@ -148,7 +148,23 @@ p:last-child{
   color: var(--uiTimelineSecondaryColor);
 }
 
+.timeline__group-alt .timeline__date{
+  min-width: 65px;
+  position: absolute;
+  left: 0;
+  padding: .5rem 1.5rem;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: var(--uiTimelineMainColor);
+  color: var(--uiTimelineSecondaryColor);
+}
+
 .timeline__day{
+  font-size: 2rem;
+  font-weight: 700;
+  display: block;
+}
+.timeline__group-alt .timeline__day{
   font-size: 2rem;
   font-weight: 700;
   display: block;
@@ -159,7 +175,11 @@ p:last-child{
   font-size: .8em;
   text-transform: uppercase;
 }
-
+.timeline__group-alt .timeline__month{
+  display: block;
+  font-size: .8em;
+  text-transform: uppercase;
+}
 .timeline__post{
   padding: 1.5rem 2rem;
   border-radius: 2px;
@@ -168,20 +188,31 @@ p:last-child{
   background-color: var(--uiTimelineSecondaryColor);
 }
 
+.timeline__group-alt .timeline__post{
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+  border-left: 3px solid var(--uiTimelineMainColor);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
+  background-color: var(--uiTimelineSecondaryColor);
+}
 
-
-  .timeline:before{
+.timeline:before{
     left: 30px;
   }
 
   .timeline__group{
     padding-top: 55px;
   }
+  .timeline__group-alt {
+    padding-top: 55px;
+  }
 
   .timeline__box{
     padding-left: 80px;
   }
-
+  .timeline__group-alt .timeline__box {
+    padding-left: 80px;
+  }
   .timeline__box:before{
     top: 50%;
     transform: translateY(-50%);  
