@@ -62,7 +62,14 @@ p:last-child{
   position: absolute;
   top: 5;
 }
-
+.timeline:after{
+  content: "";
+  width: 4px;
+  height: 89%;
+  background-color: var(--timelineSecondColor);
+  position: absolute;
+  top: 5;
+}
 .timeline__group{
   position: relative;
 }
@@ -192,7 +199,9 @@ p:last-child{
 .timeline:before{
     left: 30px;
   }
-
+ .timeline:after {
+   right: -100px;
+ }
   .timeline__group{
     padding-top: 55px;
   }
