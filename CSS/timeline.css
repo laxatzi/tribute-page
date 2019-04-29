@@ -65,10 +65,10 @@ p:last-child{
 .timeline:after{
   content: "";
   width: 4px;
-  height: 89%;
+  height: 69%;
   background-color: var(--timelineSecondColor);
   position: absolute;
-  top: 5;
+  top: 50px;
 }
 .timeline__group{
   position: relative;
