@@ -68,6 +68,7 @@ p:last-child{
 }
 .timeline__group-alt {
   position: relative;
+  display:none;
 }
 
 .timeline__group:not(:first-of-type){ 
@@ -226,6 +227,9 @@ p:last-child{
    @media screen and (max-width: 640px){
     html{
       font-size: 55%;
+    }
+    .timeline__group-alt {
+      display: block;
     }
     .timeline__post {
       font-size: .8em;
