@@ -65,17 +65,17 @@ p:last-child{
 .timeline:after{
   content: "";
   width: 4px;
-  height: 69%;
+  height: 59%;
   background-color: var(--timelineSecondColor);
   position: absolute;
-  top: 50px;
+  top: 300px;
 }
 .timeline__group{
   position: relative;
 }
 .timeline__group-alt {
   position: relative;
-  display:none;
+  display:block;
 }
 
 .timeline__group:not(:first-of-type){ 
