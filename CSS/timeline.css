@@ -144,9 +144,14 @@ p:last-child{
 .timeline__group-alt .timeline__box{
   position: relative;
 }
-
+.timeline__group-right .timeline__box {
+  position: relative;
+}
 .timeline__group-alt .timeline__box:not(:last-of-type){
   margin-bottom: 30px;
+}
+.timeline__group-right .timeline__box:not(:last-of-type) {
+    margin-bottom: 30px;
 }
 .timeline__group-alt .timeline__box:before {
   content: "";
