@@ -77,13 +77,17 @@ p:last-child{
   position: relative;
   display:block;
 }
-
+.timeline__group-right {
+  position: relative;
+  display: block;
+}
 .timeline__group:not(:first-of-type){ 
   margin-top: 4rem;
 }
 .timeline__group-alt:not(:first-of-type) {
   margin-top: 4rem;
 }
+
 .timeline__year{
   padding: .5rem 1.5rem;
   color: var(--uiTimelineSecondaryColor);
