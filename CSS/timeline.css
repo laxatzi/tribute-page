@@ -215,7 +215,11 @@ p:last-child{
   font-weight: 700;
   display: block;
 }
-
+.timeline__group-right .timeline__day {
+  font-size: 2rem;
+  font-weight: 700;
+  display: block;
+}
 .timeline__month{
   display: block;
   font-size: .8em;
