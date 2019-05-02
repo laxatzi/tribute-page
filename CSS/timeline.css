@@ -281,6 +281,10 @@ p:last-child{
     padding-left: 80px;
   }
   
+  .timeline__group-right .timeline__box {
+    padding-left: 80px;
+  }
+  
   .timeline__box:before{
     top: 50%;
     transform: translateY(-50%);  
