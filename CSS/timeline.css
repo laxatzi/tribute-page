@@ -293,6 +293,11 @@ p:last-child{
     top: 50%;
     transform: translateY(-50%);  
   }
+  .timeline__group-right .timeline__box:before {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
   .timeline__group-alt .timeline__date {
     top: 50%;
     margin-top: -27px;
@@ -302,6 +307,10 @@ p:last-child{
     margin-top: -27px;
   }
 
+  .timeline__group-right .timeline_-date {
+        top: 50%;
+        margin-top: -27px;
+  }
 
    @media screen and (max-width: 640px){
     html{
