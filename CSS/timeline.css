@@ -93,7 +93,7 @@ p:last-child{
 .timeline__year{
   padding: .5rem 1.5rem;
   color: var(--uiTimelineSecondaryColor);
-  background-color: var(--uiTimelineMainColor);
+  background-color: var(--timelineMainColor);
   position: absolute;
   left: 0;
   top: 0;
