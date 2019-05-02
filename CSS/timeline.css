@@ -44,8 +44,8 @@ p:last-child{
 } */
 
 .timeline{
-  --uiTimelineMainColor: var(--timelineMainColor, #222);
-  --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
+  --uiTimelineMainColor:  #222;
+  --uiTimelineSecondaryColor:  #fff;
   --timelineMainColor: #FF70BE;
   --timelineSecondColor: #FF8E7D;
   font-size: 16px;
