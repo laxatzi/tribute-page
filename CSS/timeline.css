@@ -230,6 +230,11 @@ p:last-child{
   font-size: .8em;
   text-transform: uppercase;
 }
+.timeline__group-right .timeline__month{
+  display: block;
+  font-size: .8em;
+  text-transform: uppercase;
+}
 .timeline__post{
   padding: 1.5rem 2rem;
   border-radius: 2px;
